@@ -18,13 +18,13 @@ const STAGE_MESSAGES = {
   finishing: 'Finalizing your colorized manga...'
 };
   finishing: 'Finalizing your generated image...'
-};
-
 const STAGE_DESCRIPTIONS = {
-  preparing: 'Validating and optimizing your uploaded images',
-  uploading: 'Securely transmitting images to our AI servers',
-  processing: 'Advanced AI algorithms are understanding your images',
-  generating: 'Creating a realistic outfit visualization',
+  preparing: 'Validating and optimizing your manga image',
+  uploading: 'Securely transmitting image to our AI servers',
+  processing: 'Advanced AI algorithms are analyzing your manga artwork',
+  generating: 'Applying vibrant colors and artistic enhancement',
+  finishing: 'Adding final touches and preparing the colorized result'
+};
   finishing: 'Adding final touches and preparing the result'
 };
 
