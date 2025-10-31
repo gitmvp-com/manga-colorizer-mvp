@@ -179,7 +179,7 @@ export function LoadingDisplay({
             Processing...
           </div>
         </div>
-      </div>
+        {`Manga colorization in progress. ${stage} stage. ${getProgressPercentage()}% complete. ${
 
       {/* Tips */}
       <div className="bg-gray-50 dark:bg-gray-900 rounded-xl p-4 mb-6">
