@@ -173,7 +173,7 @@ export function LoadingDisplay({
         <div className="flex items-center justify-between text-sm">
           <div className="text-blue-800 dark:text-blue-200">
             <span className="font-medium">AI Model:</span> Gemini 2.5 Flash
-          </div>
+            Cancel Colorization
           <div className="flex items-center text-green-600 dark:text-green-400">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse mr-2"></div>
             Processing...
