@@ -143,14 +143,15 @@ export function LoadingDisplay({
             style={{ width: `${getProgressPercentage()}%` }}
           >
             {/* Animated shine effect */}
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-pulse"></div>
-          </div>
-        </div>
-      </div>
-
-      {/* Time Information */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6 text-sm">
-        <div className="bg-gray-50 dark:bg-gray-900 rounded-xl p-4">
+        <h3 className="font-semibold text-gray-900 dark:text-white mb-2 text-sm">
+          💡 While you wait...
+        </h3>
+        <ul className="text-xs text-gray-600 dark:text-gray-400 space-y-1">
+          <li>• High-resolution manga images produce better colorization results</li>
+          <li>• The AI analyzes line art, characters, and scene context for optimal colors</li>
+          <li>• Processing typically takes 30-60 seconds</li>
+          <li>• Your images are processed securely and not stored permanently</li>
+        </ul>
           <div className="text-gray-600 dark:text-gray-400 font-medium mb-1">Elapsed Time</div>
           <div className="text-2xl font-bold text-gray-900 dark:text-white">
             {formatTime(elapsedTime)}
