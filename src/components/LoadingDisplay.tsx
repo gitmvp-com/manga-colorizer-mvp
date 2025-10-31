@@ -87,9 +87,9 @@ export function LoadingDisplay({
       default:
         return 0;
     }
-  };
-
-  return (
+        <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
+          Colorizing Your Manga
+        </h2>
     <div className={`bg-white dark:bg-gray-800 rounded-2xl shadow-xl p-8 ${className}`}>
       {/* Header */}
       <div className="text-center mb-8">
