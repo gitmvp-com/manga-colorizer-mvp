@@ -10,13 +10,13 @@ interface LoadingDisplayProps {
   customMessage?: string;
   showCancel?: boolean;
   className?: string;
-}
-
 const STAGE_MESSAGES = {
-  preparing: 'Preparing images for AI processing...',
-  uploading: 'Uploading images to the AI service...',
-  processing: 'AI is analyzing your images...',
-  generating: 'Creating your personalized outfit...',
+  preparing: 'Preparing manga image for AI colorization...',
+  uploading: 'Uploading image to the AI service...',
+  processing: 'AI is analyzing your manga artwork...',
+  generating: 'Creating vibrant colors for your manga...',
+  finishing: 'Finalizing your colorized manga...'
+};
   finishing: 'Finalizing your generated image...'
 };
 
