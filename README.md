@@ -7,6 +7,9 @@
 
 Transform your black and white manga images into vibrant, colorful artwork using advanced AI technology powered by Gemini 2.5 Flash.
 
+
+> 📝 **[View Complete Project Summary](PROJECT_SUMMARY.md)** | **[Quick Start Guide](QUICKSTART.md)** | **[Deployment Guide](docs/DEPLOYMENT.md)**
+
 ## ✨ Features
 
 - 🖼️ **AI-Powered Colorization** - Advanced AI algorithms automatically colorize manga images
