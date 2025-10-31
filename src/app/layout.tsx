@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "AI Outfit Generator",
-  description: "Generate realistic images of people wearing different clothing items using AI",
+  title: "Manga Colorizer - AI-Powered Manga Colorization",
+  description: "Transform black and white manga images into vibrant colored artwork using advanced AI technology",
 };
 
 export default function RootLayout({
